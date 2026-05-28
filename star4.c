@@ -1,0 +1,26 @@
+  // Name- Navprit Karade
+// PRN no-2503033111372039
+
+#include <stdio.h>
+
+int main() {
+    int i, j, space;
+
+    for(i = 1; i <= 5; i++) {
+
+        // spaces print
+        for(space = 1; space <= 5 - i; space++) {
+            printf(" ");
+        }
+
+        // stars print
+        for(j = 1; j <= (2*i - 1); j++) {
+            printf("*");
+        }
+
+        printf("\n");
+    }
+
+    return 0;
+}
+
